@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
-
+import GameScreen from "./screens/game-screen";
+import WelcomeScreen from './screens/welcome-screen';
 function App() {
+  const [pageNo , setPageNo] = useState(0);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {pageNo === 0 && <WelcomeScreen startGame={() => setPageNo(1)} />}
+      {pageNo === 1 && <GameScreen />}
     </div>
   );
 }
