@@ -1,5 +1,6 @@
 export const data = [
   {
+    id: 1,
     imageUrl:
       "https://www.culturalindia.net/iliimages/Swami-Vivekananda-ili-96-img-1.jpg",
     question: "who is this person",
@@ -12,6 +13,7 @@ export const data = [
     answer: 1,
   },
   {
+    id: 2,
     imageUrl:
       "https://www.welovequizzes.com/wp-content/uploads/2021/02/pexels-markus-winkler-2862156.jpg?ezimgfmt=rs%3Adevice%2Frscb1-1",
     question: "This is the flag of which Scandinavian country?",
@@ -24,6 +26,8 @@ export const data = [
     answer: 1,
   },
   {
+    id: 3,
+
     imageUrl:
       "https://www.welovequizzes.com/wp-content/uploads/2021/02/pexels-palo-cech-286749.jpg?ezimgfmt=ng:webp/ngcb1",
     question:
@@ -37,6 +41,8 @@ export const data = [
     answer: 1,
   },
   {
+    id: 4,
+
     imageUrl:
       "https://www.welovequizzes.com/wp-content/uploads/2021/02/pexels-patrick-case-3628912.jpg?ezimgfmt=ng:webp/ngcb1",
     question: "What is the name of this sport?",
@@ -49,6 +55,8 @@ export const data = [
     answer: 1,
   },
   {
+    id: 5,
+
     imageUrl:
       "https://www.welovequizzes.com/wp-content/uploads/2021/02/pexels-north-1407322.jpg?ezimgfmt=ng:webp/ngcb1",
     question:
@@ -62,6 +70,8 @@ export const data = [
     answer: 1,
   },
   {
+    id: 6,
+
     imageUrl:
       "https://www.welovequizzes.com/wp-content/uploads/2021/02/pexels-anastasiya-lobanovskaya-886616.jpg?ezimgfmt=ng:webp/ngcb1",
     question:
@@ -75,6 +85,8 @@ export const data = [
     answer: 1,
   },
   {
+    id: 7,
+
     imageUrl:
       "https://www.welovequizzes.com/wp-content/uploads/2021/02/pexels-engin-akyurt-2098578.jpg?ezimgfmt=ng:webp/ngcb1",
     question:

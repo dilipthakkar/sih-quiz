@@ -1,5 +1,11 @@
 .App{
-  width : 800px;
+  width : 400px;
   height : 800px;
-  background-color: #00308F;
+  background-color: white;
+  border-radius: 20px;
+  margin: 50px;
 }
+body{
+  background-color: #1b1b1b;
+}
+/* 888AC3 */
